@@ -1,0 +1,436 @@
+*
+{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+.container
+{
+   position: relative;
+   width: 1440px;
+   height: 1024px;
+   left:50px;
+   background: #F8F9FD;
+}
+
+/* navbar contents */
+.nav
+{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   padding: 0px;
+   gap: 941px;
+
+   position: absolute;
+   width: 1345.11px;
+   height: 48px;
+   left: 35px;
+   top: 37px;
+}
+.logo
+{
+   width: 170px;
+   height: 39px;
+
+   font-family: 'PP Cirka',sans-serif;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 42px;
+   line-height: 39px;
+
+   color: #000000;
+   cursor: pointer;
+
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+}
+.rightside
+{
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+   padding: 0px;
+   gap: 28px;
+
+   width: 234.11px;
+   height: 48px;
+
+   flex: none;
+   order: 1;
+   flex-grow: 0;
+}
+
+.doller-logo
+{
+   width: 48px;
+   height: 48px;
+
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+   cursor: pointer;
+}
+
+.track-button
+{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   padding: 12.4444px 19.5556px;
+   gap: 8.89px;
+   cursor: pointer;
+
+   width: 158.11px;
+   height: 48px;
+
+   background: #6F57E9;
+   border: none;
+   border-radius: 12.4444px;
+
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+}
+.button-text
+{
+   width: 134px;
+   height: 23px;
+
+   font-family: 'Figtree',sans-serif;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 17px;
+   line-height: 120%;
+   text-align: center;
+
+   color: #FFFFFF;
+
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+}
+.track-button:active
+{   
+   background: #6830b2;
+}
+
+
+
+
+/* headings and paragraphs */
+.headings-div
+{
+   position: absolute;
+   width: 1016px;
+   height: 84px;
+   left: 212px;
+   top: 188px;
+}
+.heading-h1
+{
+   position: absolute;
+   width: 640px;
+   height: 50px;
+   left: 194.5px;
+   top: 0px;
+
+   font-family: 'Figtree',sans-serif;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 42px;
+   line-height: 50px;
+   text-align: center;
+
+   color: #000000;
+}
+.heading-p
+{
+   position: absolute;
+   width: 1016px;
+   height: 26px;
+   left: 0px;
+   top: 58px;
+
+   font-family: 'Figtree',sans-serif;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 22px;
+   line-height: 26px;
+   text-align: center;
+
+   color: #000000;
+}
+
+
+/* searchbox content */
+.search-box
+{
+   position: absolute;
+   width: 1287px;
+   height: 82px;
+   left: 76px;
+   top: 404px;
+
+   background: #FFFFFF;
+   box-shadow: 296px 536px 245px rgba(21, 31, 72, 0.01), 167px 302px 207px rgba(21, 31, 72, 0.05), 74px 134px 153px rgba(21, 31, 72, 0.09), 19px 34px 84px rgba(21, 31, 72, 0.1), 0px 0px 0px rgba(21, 31, 72, 0.1);
+   border-radius: 14px;
+}
+.group
+{
+   display: flex;
+   align-items: center;
+   position: absolute;
+   width: 1264px;
+   width: 98%;
+   height: 55px;
+   left: 1%;
+   top: 14px;
+   gap: 5px;
+}
+.search-card
+{
+   display: flex;
+   position: relative;
+   width: 295px;
+   height: 52px;
+   
+   border-radius: 14px;
+}
+.all-search-icon-box
+{
+   position: absolute;
+   width: 24px;
+   height: 24px;
+   left: 14px;
+   top: 14px;
+   border: none;
+   cursor: pointer;
+}
+input[type=text]
+{
+   position: absolute;
+   width: 180px;
+   height: 19px;
+   left: 47px;
+   top: 16.5px;
+   border: none;
+
+
+   font-family: 'Figtree',sans-serif;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 16px;
+   line-height: 120%;
+
+   color: #868686;
+}
+input[type=text]:hover
+{
+   transition: none;
+   border: transparent;
+   transition: all 0s;
+}
+.search-button-card
+{
+   display: flex;
+   position: relative;
+   width: 52px;
+   height: 52px;
+   left:10px;
+   
+   border:none;
+   border-radius: 14px;
+}
+.search-icon-button
+{
+   position: relative;
+   width: 100%;
+   height: 100%;
+   border: none;
+   cursor: pointer;
+}
+.line
+{
+   position: absolute;
+   width: 27px;
+   height: 0px;
+   top: 27.5px;
+
+   border: 1.2px solid #B9B9B9;
+   transform: rotate(90deg);
+}
+
+
+/* serivice contents */
+.service
+{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 0px;
+   gap: 40px;
+
+   position: absolute;
+   width: 1375px;
+   height: 292px;
+   left: 32px;
+   top: 564px;
+}
+.service-h3
+{
+   font-family: 'Figtree',sans-serif;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 33px;
+   line-height: 120%;
+   
+   text-align: center;
+   
+   color: #000000;
+   
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+}
+.service-item-container
+{
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+   padding: 0px;
+   gap: 17px;
+   
+   width: 1375px;
+   height: 212px;
+   
+   flex: none;
+   order: 1;
+   flex-grow: 0;
+}
+.card
+{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+   padding: 28px 24px;
+   gap: 20px;
+   
+   width: 331px;
+   height: 212px;
+   
+   background: #FFFFFF;
+   box-shadow: 0px 146px 58px rgba(0, 0, 0, 0.01), 0px 82px 49px rgba(0, 0, 0, 0.05), 0px 36px 36px rgba(0, 0, 0, 0.09), 0px 9px 20px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+   border-radius: 16px;
+   
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+}
+.service-card-nav
+{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   padding: 0px;
+   gap: 30px;
+
+   width: 208px;
+   height: 32px;
+
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+}
+.small-icon
+{
+   position:absolute;
+   width: 32px;
+   height: 32px;
+}
+.service-nav-heading-text
+{
+   position: relative;
+   display: flex;
+   width: 146px;
+   height: 26px;
+   left: 55px;
+   padding-top: 5px;
+
+   font-family: 'Figtree',sans-serif;
+   font-style:normal;
+   font-weight: 600;
+   font-size: 14px;
+
+   text-align: center;
+
+   color: #000000;
+
+   flex: none;
+   order: 1;
+   flex-grow: 0;
+}
+.service-line
+{
+   width: 277px;
+   height: 0px;
+
+   border: 0.7px solid #9E9E9E;
+
+   flex: none;
+   order: 1;
+   flex-grow: 0;
+}
+.service-card-body
+{
+   width: 283px;
+   height: 84px;
+
+   font-family: 'Figtree',sans-serif;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 130%;
+
+   color: #535353;
+
+   flex: none;
+   order: 2;
+   flex-grow: 0;
+}
+
+
+
+/* footer contents */
+.footer
+{
+   position: absolute;
+   width: 1440px;
+   height: 140px;
+   bottom: 0;
+}
+.wave-1
+{
+   position: absolute;
+   bottom: 0;
+}
+.wave-2
+{
+   position: absolute;
+   bottom: 0;
+}
+
+
+/* Chat Button */
+.chat-button
+{
+   position: fixed;
+   width: 75px;
+   height: 75px;
+   right: 85px;
+   bottom: 85px;
+   cursor: pointer;
+}

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Booking with Shipmate</title>
+      <link rel="stylesheet" href="css/booking.css">
+   </head>
+   <body>
+      <div class=container>
+         <!-- Nav bar -->
+         <div class="nav">
+            <div>
+               <h1 class="logo">
+                  Shop<font color="#6F57E9">partner.</font>
+               </h1>
+            </div>
+         </div>
+
+         <!-- Progress container -->
+         <div class="progress-bar-container">
+            <div class="first-progress-box">
+               <div class="common-bar">1</div>
+               <div class="pbar-text">Search</div>
+            </div>
+
+            <div class="first-progress-bar-line"></div>
+
+            <div class="second-progress-box">
+               <div class="common-bar">2</div>
+               <div class="pbar-text">Recommended Services</div>
+            </div>
+
+            <div class="second-progress-bar-line"></div>
+
+            <div class="third-progress-box">
+               <div class="common-bar">3</div>
+               <div class="pbar-text">Result</div>
+            </div>
+
+            <div class="third-progress-bar-line"></div>
+
+            <div class="forth-progress-box">
+               <div class="common-bar">4</div>
+               <div class="pbar-text">Booking</div>
+            </div>
+         </div>
+
+         <!-- Main Container for all content -->
+         <div class="main-container">
+            
+            <!-- Price box or cart details -->
+            <div class="price-box">
+               <div class="price-heading-box">
+                  <div class="price-heading-text">Price</div>
+                  <div class="p-knownshipper">
+                     <img class="p-star-icon" src="images/price-star1.svg" alt="star" >
+                     <div class="knownshipper-text">Known Shipper</div>
+                  </div>
+               </div>
+
+               <div class="p-seller-box">
+                  <input class="p-s-q-input" name="seller quotes" value="Seller's Quotes">
+                  <input class="p-s-q-price" name="seller price" value="3,659.25/-">
+               </div>
+
+               <!-- line1 -->
+               <div class="p-s-line1"></div>
+
+               <div class="tax-ins-box">
+                  <div class="tax-box">
+                     <div class="tax-text">Duties and taxes</div>
+                     <input class="tax-rate" name="tax" value="Not Included">
+                  </div>
+                  <div class="ins-box">
+                     <div class="ins-sub-box">
+                        <div class="ins-text">Duties and taxes</div>
+                        <input class="ins-rate" name="tax" value="323.40/-">
+                     </div>
+                     <div class="ins-other-text">Based on the items cost</div>
+                  </div>   
+               </div>
+
+               <!-- line2 -->
+               <div class="p-s-line2"></div>
+
+               <div class="promo-fees-box">
+                  <div class="promo-box">Add a <font color="#6F57E9" style="cursor: pointer;"><a href="#">promo code</a></font></div>
+                  <div class="fee-box">
+                     <div class="fee-text">Platform fee</div>
+                     <input class="platform-fee" name="fee" value="119.48/-">
+                  </div>
+               </div>
+
+               <!-- line3 -->
+               <div class="p-s-line3"></div>
+
+
+               <div class="total-box">
+                  <div class="total-text">Total:</div>
+                  <input class="total-amount" name="total" value="4,102.13/-">
+               </div>
+
+               
+               <button class="checkout-button">
+                  <font class="button-text">Checkout</font>
+               </button>
+               
+            </div>
+
+            <!-- Price seller ads box -->
+            <div class="price-seller-ads">
+               <div class="booking-summary-box">
+                  <div class="nav-text">Booking summary</div>
+                  <div class="mid-text">Express</div>
+                  <div class="location-update-tracker">
+                     <div class="plane-logo">
+                        <div class="plane-icon"><img src="images/Plane icon.svg" alt="plane"></div>
+                     </div>
+                     <div class="plan-bottom-line"></div>
+                     <div class="location-box">
+                        <div class="origin-l-box">
+                           <div class="o-d-icon"><img src="images/origin-destination-icon.svg" alt="icon"></div>
+                           <div class="o-d-text">
+                              <form action=" " method="get" >
+                                 <input class="l-input" name="origin" value="Delhi">
+                                 <input name="distance" value="110003" ><input name="country" value="India">
+                              </form>
+                           </div>
+                        </div>
+                        <div class="destination-l-box">
+                           <div class="o-d-icon"><img src="images/origin-destination-icon.svg" alt="icon"></div>
+                           <div class="o-d-text">
+                              <form action=" " method="get" >
+                                 <input class="l-input" name="origin" value="Kolkata">
+                                 <input name="distance" value="200080" ><input name="country" value="India">
+                              </form>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="second-box">
+                  <div class="weight-box">
+                     <div class="w-sub-box">
+                        <div class="icon-n-text-div">
+                           <div class="icon-heading">Total Weight/Volume</div>
+                        </div>
+                        <div class="w-icon">
+                           <img src="images/weightmeter.svg" alt="Weight">
+                        </div>
+                        <form action=" " method="get">
+                           <input class="w-text" name="weight" value="114.21KG">
+                        </form>
+                     </div>
+                  </div>
+                  <div class="product-quantity-box">
+                     <div class="product-text">Load</div>
+                     <from>
+                        <input class="item-quantity" name="quantity" value="1">
+                        <input class="item-quantity-x" name=" " value="X">
+                     </from>
+                     <div class="item-box">
+                        <div class="item-logo-text">
+                           <div class="item-logo">
+                              <img src="images/pallets.svg" alt="pallets">
+                           </div>
+                           <from action=" " method="get">
+                              <input class="item-name" name="product" value="pallets">
+                           </from>
+                        </div>
+                        <from action=" " method="get">
+                           <input class="item-name" name="size" value="230 X 140 X 120 CM">
+                        </from>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="third-box">
+                  <div class="seller-details-box">
+                     <from class="seller-text-box" action=" " method="get">
+                        Seller:<br><input class="seller-name-box" name="seller" value="Prime Worldwide">
+                     </from>
+                     <div class="seller-pic">
+                        <img src="images/seller-ship-picture.jpg" alt="picture">
+                     </div>
+                  </div>
+                  <div class="insurance-box">
+                     <form class="insurance-text-box" action=" " method="get">
+                        Insurance:<br><input class="insurance-name-box" name="seller" value="Xcover.com">
+                     </form>
+                     <div class="i-pic">
+                        <img src="images/Xcover.svg" alt="Xcover">
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+
+         <!-- Chat Button -->
+         <div class="chat-button">
+            <img src="images/chatbutton.svg" alt="chat-button" href="#">
+         </div>
+      </div>
+   </body>
+</html>
